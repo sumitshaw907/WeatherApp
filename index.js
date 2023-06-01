@@ -166,6 +166,6 @@ async function fetchSearchWeatherInfo(city) {
         loadingScreen.classList.remove("active");
         //userInfoContainer.classList.remove("active");
         showError.classList.add("active");
-        errorText.innerText =`{err?.message}`
+        errorText.innerText =`Sorry! City doesnot exist.`
     }
 }
